@@ -11,7 +11,7 @@
 @implementation LibraryObjC
 
 - (NSString *)text {
-    return [[Library new] text];;
+    return [[LibrarySwift new] text];;
 }
 
 @end
