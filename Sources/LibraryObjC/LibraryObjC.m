@@ -6,7 +6,7 @@
 //
 
 #import "LibraryObjC.h"
-@import Library;
+@import LibrarySwift;
 
 @implementation LibraryObjC
 
