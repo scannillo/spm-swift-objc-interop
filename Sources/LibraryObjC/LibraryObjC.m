@@ -14,4 +14,8 @@
     return [[LibrarySwift new] text];;
 }
 
+- (LibrarySwift *)testType {
+    return [LibrarySwift new];;
+}
+
 @end

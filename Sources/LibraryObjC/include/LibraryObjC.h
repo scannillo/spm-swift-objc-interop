@@ -6,12 +6,15 @@
 //
 
 #import <Foundation/Foundation.h>
+@class LibrarySwift;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LibraryObjC : NSObject
 
 - (NSString *)text;
+
+- (LibrarySwift *)testType;
 
 @end
 
