@@ -6,11 +6,12 @@
 //
 
 #import "LibraryObjC.h"
+@import Library;
 
 @implementation LibraryObjC
 
 - (NSString *)text {
-    return @"string";
+    return [[Library new] text];;
 }
 
 @end

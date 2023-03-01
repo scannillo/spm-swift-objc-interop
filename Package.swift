@@ -26,6 +26,6 @@ let package = Package(
             dependencies: []),
         .target(
             name: "LibraryObjC",
-            publicHeadersPath: "Public")
+            dependencies: ["Library"])
     ]
 )
