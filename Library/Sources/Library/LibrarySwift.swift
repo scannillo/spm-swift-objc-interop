@@ -7,6 +7,6 @@
 
 import Foundation
 
-class LibrarySwift {
-    static let testString = "LibrarySwift"
+public class LibrarySwift {
+    public static let testString = "LibrarySwift"
 }

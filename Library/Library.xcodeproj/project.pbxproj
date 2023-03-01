@@ -45,8 +45,7 @@
 		8094D57929AFEFF2009A80FA = {
 			isa = PBXGroup;
 			children = (
-				8094D58529AFEFF2009A80FA /* Library */,
-				8094D5A129AFF0C7009A80FA /* LibraryObjC */,
+				8094D5AD29AFF328009A80FA /* Sources */,
 				8094D58429AFEFF2009A80FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +76,15 @@
 				8094D5AA29AFF127009A80FA /* LibrarySourceObjC.m */,
 			);
 			path = LibraryObjC;
+			sourceTree = "<group>";
+		};
+		8094D5AD29AFF328009A80FA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8094D5A129AFF0C7009A80FA /* LibraryObjC */,
+				8094D58529AFEFF2009A80FA /* Library */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
