@@ -9,6 +9,8 @@
 
 @implementation LibraryObjC
 
-- (NSString *)text;
+- (NSString *)text {
+    return @"string";
+}
 
 @end

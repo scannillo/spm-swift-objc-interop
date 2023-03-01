@@ -11,9 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LibraryObjC : NSObject
 
-- (NSString *)text {
-    return @"Hello, ObjC!";
-}
+- (NSString *)text;
 
 @end
 
